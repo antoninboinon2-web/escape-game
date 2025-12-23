@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMINAL SÉCURISÉ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <span>SYSTÈME DE SÉCURITÉ v2.4.1</span>
+            <span class="terminal-status">● CONNECTÉ</span>
+        </div>
+        
+        <div id="terminal-output" class="terminal-output">
+            <div class="terminal-line">
+                <span class="prompt">SYSTÈME</span> Initialisation...
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">SYSTÈME</span> Connexion établie
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">SYSTÈME</span> ==================================
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">SYSTÈME</span> ACCÈS RESTREINT
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">SYSTÈME</span> ENTREZ VOTRE CODE D'IDENTIFICATION
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">SYSTÈME</span> ==================================
+            </div>
+        </div>
+
+        <div class="input-container">
+            <span class="input-prompt">&gt;</span>
+            <input type="text" id="terminal-input" class="terminal-input" autofocus autocomplete="off" spellcheck="false">
+            <span class="cursor">█</span>
+        </div>
+
+        <div id="reward-container" class="reward-container hidden">
+            <div id="reward-content" class="reward-content"></div>
+            <button id="return-btn" class="return-btn">RETOUR AU TERMINAL</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
