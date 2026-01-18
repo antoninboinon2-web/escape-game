@@ -269,3 +269,4 @@ document.addEventListener('click', (e) => {
 setTimeout(() => {
     addTerminalLine('SYSTÈME', '> Prêt à recevoir les commandes');
 }, 500);
+
