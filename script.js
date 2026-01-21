@@ -60,7 +60,7 @@ Le code d'ouverture est composé des initiales des quatre saisons.`
     '102015R19': {
         type: 'image',
         title: 'PHOTO INDICE',
-        imageUrl: 'IMG_5498.jpeg',
+        imageUrl: 'IMG_5498.jpg',
         description: ''
     }
 };
@@ -269,6 +269,7 @@ document.addEventListener('click', (e) => {
 setTimeout(() => {
     addTerminalLine('SYSTÈME', '> Prêt à recevoir les commandes');
 }, 500);
+
 
 
 
